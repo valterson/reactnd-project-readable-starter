@@ -19,7 +19,7 @@ class FilterBy extends Component {
                 title="Remove os filtros. Mostra todas categorias"
                 to="/"
               >
-                Todas
+                TODAS
               </Link>
             </li>
             <li className="dib mr1 mb2">
@@ -29,7 +29,7 @@ class FilterBy extends Component {
                 title="Filtra por categoria HATCH"
                 to="/hatch"
               >
-                Hatch
+                HATCH
               </Link>
             </li>
             <li className="dib mr1 mb2">
@@ -39,7 +39,7 @@ class FilterBy extends Component {
                 title="Filtra por categoria SEDAN"
                 to="/sedan"
               >
-                Sedan
+                SEDAN
               </Link>
             </li>
             <li className="dib mr1 mb2">
@@ -59,7 +59,7 @@ class FilterBy extends Component {
                 title="Filtra por categoria PICK-UP"
                 to="/pick-up"
               >
-                Pick-up
+                PICK-UP
               </Link>
             </li>
           </ul>

@@ -1,14 +1,12 @@
-import React, { Component } from 'react';
-
-import Layout from '../../components/Layout';
+import React, { Component, Fragment } from 'react';
 
 class CategorySuv extends Component {
   render() {
     return (
-      <Layout>
+      <Fragment>
         <article>
           <a className="link dt w-100 bb b--black-10 pb2 mt2 dim blue" href="#0">
-            <div className="dtc w3">
+            <div className="dtc w4 w5-m w5-l">
               <img src="http://mrmrs.github.io/images/0010.jpg" alt="0" className="db w-100"/>
             </div>
             <div className="dtc v-top pl2">
@@ -23,7 +21,7 @@ class CategorySuv extends Component {
         </article>
         <article>
           <a className="link dt w-100 bb b--black-10 pb2 mt2 dim blue" href="#0">
-            <div className="dtc w3">
+            <div className="dtc w4 w5-m w5-l">
               <img src="http://mrmrs.github.io/images/0002.jpg" alt="1" className="db w-100"/>
             </div>
             <div className="dtc v-top pl2">
@@ -38,7 +36,7 @@ class CategorySuv extends Component {
         </article>
         <article>
           <a className="link dt w-100 bb b--black-10 pb2 mt2 dim blue" href="#0">
-            <div className="dtc w3">
+            <div className="dtc w4 w5-m w5-l">
               <img src="http://mrmrs.github.io/images/0004.jpg" alt="2" className="db w-100"/>
             </div>
             <div className="dtc v-top pl2">
@@ -53,7 +51,7 @@ class CategorySuv extends Component {
         </article>
         <article>
           <a className="link dt w-100 bb b--black-10 pb2 mt2 dim blue" href="#0">
-            <div className="dtc w3">
+            <div className="dtc w4 w5-m w5-l">
               <img src="http://mrmrs.github.io/images/0006.jpg" alt="3" className="db w-100"/>
             </div>
             <div className="dtc v-top pl2">
@@ -68,7 +66,7 @@ class CategorySuv extends Component {
         </article>
         <article>
           <a className="link dt w-100 bb b--black-10 pb2 mt2 dim blue" href="#0">
-            <div className="dtc w3">
+            <div className="dtc w4 w5-m w5-l">
               <img src="http://mrmrs.github.io/images/0030.jpg" alt="4" className="db w-100"/>
             </div>
             <div className="dtc v-top pl2">
@@ -83,7 +81,7 @@ class CategorySuv extends Component {
         </article>
         <article className="mt2">
           <a className="link dt w-100 bb b--black-10 dim blue" href="#0">
-            <div className="dtc w3">
+            <div className="dtc w4 w5-m w5-l">
               <img src="http://mrmrs.github.io/images/0010.jpg" alt="5" className="db w-100"/>
             </div>
             <div className="dtc v-top pl2">
@@ -96,7 +94,7 @@ class CategorySuv extends Component {
             </div>
           </a>
         </article>
-      </Layout>
+      </Fragment>
     );
   }
 }

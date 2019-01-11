@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 const Layout = ({ children }) => {
   return (
-    <main className="pa3 ph3 ph7-l">
+    <section className="ph3 ph7-l pa3">
       {children}
-    </main>
+    </section>
   );
 };
 
